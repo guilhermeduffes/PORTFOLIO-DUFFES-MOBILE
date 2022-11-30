@@ -1,0 +1,68 @@
+@font-face {
+    font-family: origintech;
+    src: url(/assets/fonts/OriginTech\ personal\ use.ttf);
+}
+
+@font-face {
+    font-family: planetkosmos;
+    src: url(/assets/fonts/planetkosmos.TTF);
+}
+
+@font-face {
+    font-family: spaceage;
+    src: url(/assets/fonts/spaceage.ttf);
+}
+
+@font-face {
+    font-family: tourner;
+    src: url(/assets/fonts/Tourner.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: tura; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #020101;
+}
+
+#paiCelular{
+    display: flex;
+    justify-content: center;
+}
+
+#celular{  
+    width: 412px;
+    height: 915px;
+    border: 2px solid orange;
+}
+
+#navFooter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    width: 408px;
+}
+
+#circuloSobreicon{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    z-index: -1;
+    position: absolute;
+    left: 39.5px;
+    left: 128.5px;
+}
